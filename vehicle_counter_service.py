@@ -350,54 +350,6 @@ class VehicleCounterService:
         
         return preview_path
     
-    def save_vehicle_image(self, frame, bbox, track_id, direction, roi_array, line_pt1, line_pt2):
-        """Lưu hình ảnh khi xe đi qua line"""
-        # Tạo thư mục lưu ảnh nếu chưa có
-        img_dir = f"vehicle_images/{self.session_id}"
-        os.makedirs(img_dir, exist_ok=True)
-        
-        # Copy frame
-        img = frame.copy()
-        
-        # Vẽ ROI (mờ hơn)
-        cv2.polylines(img, [roi_array], True, (255, 200, 0), 1)
-        
-        # Vẽ LINE
-        cv2.line(img, line_pt1, line_pt2, (0, 255, 255), 2)
-        
-        # Vẽ bbox xe - màu khác nhau cho IN/OUT
-        x1, y1, x2, y2 = bbox
-        if direction == 'IN':
-            color = (0, 255, 0)  # Xanh lá cho VÀO
-            direction_text = "VÀO"
-        else:
-            color = (0, 0, 255)  # Đỏ cho RA
-            direction_text = "RA"
-        
-        # Vẽ bbox với viền dày
-        cv2.rectangle(img, (x1, y1), (x2, y2), color, 3)
-        
-        # Vẽ label background
-        label = f"ID:{track_id} - {direction_text}"
-        (label_w, label_h), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.8, 2)
-        cv2.rectangle(img, (x1, y1 - label_h - 10), (x1 + label_w + 10, y1), color, -1)
-        cv2.putText(img, label, (x1 + 5, y1 - 5),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
-        
-        # Vẽ timestamp và thống kê
-        timestamp_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        cv2.putText(img, timestamp_str, (20, 30),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
-        cv2.putText(img, f"Total: IN={self.count_in} OUT={self.count_out}", (20, 60),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
-        
-        # Tên file
-        timestamp_file = datetime.now().strftime("%H%M%S_%f")[:-3]
-        filename = f"{img_dir}/{direction}_{track_id}_{timestamp_file}.jpg"
-        
-        # Lưu ảnh
-        cv2.imwrite(filename, img)
-        logger.info(f"📸 Vehicle image saved: {filename}")
     
     def run(self):
         """Main loop - chạy liên tục"""
@@ -526,18 +478,12 @@ class VehicleCounterService:
                                         self.count_in += 1
                                         self.counted_ids.add(track_id)
                                         self.save_vehicle_event(track_id, 'IN')
-                                        # Lưu hình xe đi VÀO
-                                        self.save_vehicle_image(frame, (x1, y1, x2, y2), track_id, 'IN', 
-                                                               roi_array, line_pt1, line_pt2)
                                         logger.info(f"🟢 VÀO: ID={track_id} | Total IN: {self.count_in}")
                                     
                                     elif prev_side > 0 and curr_side < 0:
                                         self.count_out += 1
                                         self.counted_ids.add(track_id)
                                         self.save_vehicle_event(track_id, 'OUT')
-                                        # Lưu hình xe đi RA
-                                        self.save_vehicle_image(frame, (x1, y1, x2, y2), track_id, 'OUT',
-                                                               roi_array, line_pt1, line_pt2)
                                         logger.info(f"🔴 RA: ID={track_id} | Total OUT: {self.count_out}")
                     
                     # Lưu data định kỳ
