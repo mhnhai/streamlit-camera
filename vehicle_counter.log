@@ -1,0 +1,372 @@
+2026-03-13 15:33:46,731 - INFO - ==================================================
+2026-03-13 15:33:46,732 - INFO - Vehicle Counter Service Starting...
+2026-03-13 15:33:46,732 - INFO - ==================================================
+2026-03-13 15:33:46,732 - INFO - Loaded config from config.json
+2026-03-13 15:33:46,844 - ERROR - Database initialization failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2026-03-13 15:47:10,683 - INFO - ==================================================
+2026-03-13 15:47:10,683 - INFO - Vehicle Counter Service Starting...
+2026-03-13 15:47:10,684 - INFO - ==================================================
+2026-03-13 15:47:10,687 - INFO - Loaded config from config.json
+2026-03-13 15:47:10,878 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 15:47:10,878 - INFO - Service initialized. Device: cuda
+2026-03-13 15:47:10,884 - INFO - Started new session: 20260313_154710
+2026-03-13 15:47:10,884 - INFO - Loading YOLO model...
+2026-03-13 15:47:10,990 - INFO - Model loaded successfully
+2026-03-13 15:47:10,990 - INFO - Connecting to camera...
+2026-03-13 15:47:12,501 - INFO - Camera connected: 704x576
+2026-03-13 15:47:12,504 - INFO - Starting detection loop...
+2026-03-13 15:47:55,173 - ERROR - Error saving vehicle event: can't adapt type 'numpy.int64'
+2026-03-13 15:47:55,174 - INFO - 🔴 RA: ID=1 | Total OUT: 1
+2026-03-13 15:48:12,561 - INFO - Saved: +0 IN, +1 OUT | Total session: 0 IN, 1 OUT
+2026-03-13 15:49:12,578 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-13 15:50:12,606 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-13 15:50:29,310 - ERROR - Error saving vehicle event: can't adapt type 'numpy.int64'
+2026-03-13 15:50:29,311 - INFO - 🟢 VÀO: ID=2 | Total IN: 1
+2026-03-13 15:51:12,653 - INFO - Saved: +1 IN, +0 OUT | Total session: 1 IN, 1 OUT
+2026-03-13 15:51:50,534 - ERROR - Error saving vehicle event: can't adapt type 'numpy.int64'
+2026-03-13 15:51:50,534 - INFO - 🔴 RA: ID=3 | Total OUT: 2
+2026-03-13 15:52:12,714 - INFO - Saved: +0 IN, +1 OUT | Total session: 1 IN, 2 OUT
+2026-03-13 15:53:12,758 - INFO - Saved: +0 IN, +0 OUT | Total session: 1 IN, 2 OUT
+2026-03-13 15:53:16,139 - INFO - Received shutdown signal. Stopping...
+2026-03-13 15:53:16,177 - INFO - Saved: +0 IN, +0 OUT | Total session: 1 IN, 2 OUT
+2026-03-13 15:53:16,184 - INFO - Ended session: 20260313_154710 | Total: 1 IN, 2 OUT
+2026-03-13 15:53:16,185 - INFO - Service stopped
+2026-03-13 15:53:21,026 - INFO - ==================================================
+2026-03-13 15:53:21,027 - INFO - Vehicle Counter Service Starting...
+2026-03-13 15:53:21,027 - INFO - ==================================================
+2026-03-13 15:53:21,027 - INFO - Loaded config from config.json
+2026-03-13 15:53:21,106 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 15:53:21,107 - INFO - Service initialized. Device: cuda
+2026-03-13 15:53:21,109 - INFO - Started new session: 20260313_155321
+2026-03-13 15:53:21,109 - INFO - Loading YOLO model...
+2026-03-13 15:53:21,149 - INFO - Model loaded successfully
+2026-03-13 15:53:21,149 - INFO - Connecting to camera...
+2026-03-13 15:53:23,496 - INFO - Camera connected: 704x576
+2026-03-13 15:53:23,497 - INFO - Starting detection loop...
+2026-03-13 15:54:23,501 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 15:55:13,117 - INFO - 🔴 RA: ID=1 | Total OUT: 1
+2026-03-13 15:55:23,522 - INFO - Saved: +0 IN, +1 OUT | Total session: 0 IN, 1 OUT
+2026-03-13 15:56:23,547 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-13 15:57:23,556 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-13 15:57:32,215 - INFO - 🔴 RA: ID=3 | Total OUT: 2
+2026-03-13 15:58:23,571 - INFO - Saved: +0 IN, +1 OUT | Total session: 0 IN, 2 OUT
+2026-03-13 15:58:41,328 - INFO - 🔴 RA: ID=4 | Total OUT: 3
+2026-03-13 15:59:23,579 - INFO - Saved: +0 IN, +1 OUT | Total session: 0 IN, 3 OUT
+2026-03-13 15:59:38,522 - INFO - 🟢 VÀO: ID=5 | Total IN: 1
+2026-03-13 16:00:23,598 - INFO - Saved: +1 IN, +0 OUT | Total session: 1 IN, 3 OUT
+2026-03-13 16:00:38,391 - INFO - 🟢 VÀO: ID=6 | Total IN: 2
+2026-03-13 16:01:23,620 - INFO - Saved: +1 IN, +0 OUT | Total session: 2 IN, 3 OUT
+2026-03-13 16:02:10,348 - INFO - 🔴 RA: ID=7 | Total OUT: 4
+2026-03-13 16:02:23,629 - INFO - Saved: +0 IN, +1 OUT | Total session: 2 IN, 4 OUT
+2026-03-13 16:02:24,190 - INFO - 🟢 VÀO: ID=8 | Total IN: 3
+2026-03-13 16:03:23,647 - INFO - Saved: +1 IN, +0 OUT | Total session: 3 IN, 4 OUT
+2026-03-13 16:03:57,969 - INFO - 🔴 RA: ID=9 | Total OUT: 5
+2026-03-13 16:04:23,669 - INFO - Saved: +0 IN, +1 OUT | Total session: 3 IN, 5 OUT
+2026-03-13 16:05:23,694 - INFO - Saved: +0 IN, +0 OUT | Total session: 3 IN, 5 OUT
+2026-03-13 16:06:23,752 - INFO - Saved: +0 IN, +0 OUT | Total session: 3 IN, 5 OUT
+2026-03-13 16:06:33,394 - INFO - Received shutdown signal. Stopping...
+2026-03-13 16:06:33,402 - INFO - Saved: +0 IN, +0 OUT | Total session: 3 IN, 5 OUT
+2026-03-13 16:06:33,409 - INFO - Ended session: 20260313_155321 | Total: 3 IN, 5 OUT
+2026-03-13 16:06:33,409 - INFO - Service stopped
+2026-03-13 16:06:39,759 - INFO - ==================================================
+2026-03-13 16:06:39,760 - INFO - Vehicle Counter Service Starting...
+2026-03-13 16:06:39,760 - INFO - ==================================================
+2026-03-13 16:06:39,760 - INFO - Loaded config from config.json
+2026-03-13 16:06:39,833 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 16:06:39,833 - INFO - Service initialized. Device: cuda
+2026-03-13 16:06:39,836 - INFO - Started new session: 20260313_160639
+2026-03-13 16:06:39,836 - INFO - Loading YOLO model...
+2026-03-13 16:06:39,916 - INFO - Model loaded successfully
+2026-03-13 16:06:39,916 - INFO - Connecting to camera...
+2026-03-13 16:06:42,244 - INFO - Camera connected: 704x576
+2026-03-13 16:06:42,245 - INFO - Starting detection loop...
+2026-03-13 16:06:45,423 - INFO - 🟢 VÀO: ID=4 | Total IN: 1
+2026-03-13 16:07:11,622 - INFO - Received shutdown signal. Stopping...
+2026-03-13 16:07:11,662 - INFO - Saved: +1 IN, +0 OUT | Total session: 1 IN, 0 OUT
+2026-03-13 16:07:11,666 - INFO - Ended session: 20260313_160639 | Total: 1 IN, 0 OUT
+2026-03-13 16:07:11,667 - INFO - Service stopped
+2026-03-13 16:07:18,645 - INFO - ==================================================
+2026-03-13 16:07:18,646 - INFO - Vehicle Counter Service Starting...
+2026-03-13 16:07:18,646 - INFO - ==================================================
+2026-03-13 16:07:18,646 - INFO - Loaded config from config.json
+2026-03-13 16:07:18,713 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 16:07:18,714 - INFO - Service initialized. Device: cuda
+2026-03-13 16:07:18,716 - INFO - Started new session: 20260313_160718
+2026-03-13 16:07:18,717 - INFO - Loading YOLO model...
+2026-03-13 16:07:18,757 - INFO - Model loaded successfully
+2026-03-13 16:07:18,758 - INFO - Connecting to camera...
+2026-03-13 16:07:21,096 - INFO - Camera connected: 704x576
+2026-03-13 16:07:21,097 - INFO - Starting detection loop...
+2026-03-13 16:08:03,475 - INFO - Received shutdown signal. Stopping...
+2026-03-13 16:08:03,494 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 16:08:03,497 - INFO - Ended session: 20260313_160718 | Total: 0 IN, 0 OUT
+2026-03-13 16:08:03,497 - INFO - Service stopped
+2026-03-13 16:08:42,760 - INFO - ==================================================
+2026-03-13 16:08:42,761 - INFO - Vehicle Counter Service Starting...
+2026-03-13 16:08:42,761 - INFO - ==================================================
+2026-03-13 16:08:42,761 - INFO - Loaded config from config.json
+2026-03-13 16:08:42,827 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 16:08:42,827 - INFO - Service initialized. Device: cuda
+2026-03-13 16:08:42,830 - INFO - Started new session: 20260313_160842
+2026-03-13 16:08:42,830 - INFO - Loading YOLO model...
+2026-03-13 16:08:42,871 - INFO - Model loaded successfully
+2026-03-13 16:08:42,872 - INFO - Connecting to camera...
+2026-03-13 16:08:45,287 - INFO - Camera connected: 704x576
+2026-03-13 16:08:45,288 - INFO - Starting detection loop...
+2026-03-13 16:09:06,741 - INFO - 🟢 VÀO: ID=1 | Total IN: 1
+2026-03-13 16:09:45,307 - INFO - Saved: +1 IN, +0 OUT | Total session: 1 IN, 0 OUT
+2026-03-13 16:10:04,304 - INFO - Received shutdown signal. Stopping...
+2026-03-13 16:10:04,333 - INFO - Saved: +0 IN, +0 OUT | Total session: 1 IN, 0 OUT
+2026-03-13 16:10:04,336 - INFO - Ended session: 20260313_160842 | Total: 1 IN, 0 OUT
+2026-03-13 16:10:04,337 - INFO - Service stopped
+2026-03-13 16:10:23,407 - INFO - ==================================================
+2026-03-13 16:10:23,407 - INFO - Vehicle Counter Service Starting...
+2026-03-13 16:10:23,408 - INFO - ==================================================
+2026-03-13 16:10:23,408 - INFO - Loaded config from config.json
+2026-03-13 16:10:23,480 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 16:10:23,480 - INFO - Service initialized. Device: cuda
+2026-03-13 16:10:23,483 - INFO - Started new session: 20260313_161023
+2026-03-13 16:10:23,483 - INFO - Loading YOLO model...
+2026-03-13 16:10:23,525 - INFO - Model loaded successfully
+2026-03-13 16:10:23,526 - INFO - Connecting to camera...
+2026-03-13 16:10:25,868 - INFO - Camera connected: 704x576
+2026-03-13 16:10:25,869 - INFO - Scaling: 1280x720 -> 704x576 (scale: 0.55x, 0.80y)
+2026-03-13 16:10:25,894 - INFO - 📸 Preview saved: preview_20260313_161023.jpg
+2026-03-13 16:10:25,895 - INFO - Starting detection loop...
+2026-03-13 16:11:22,960 - INFO - 🟢 VÀO: ID=2 | Total IN: 1
+2026-03-13 16:11:25,915 - INFO - Saved: +1 IN, +0 OUT | Total session: 1 IN, 0 OUT
+2026-03-13 16:11:44,244 - INFO - 🔴 RA: ID=3 | Total OUT: 1
+2026-03-13 16:12:19,696 - INFO - 🔴 RA: ID=4 | Total OUT: 2
+2026-03-13 16:12:25,929 - INFO - Saved: +0 IN, +2 OUT | Total session: 1 IN, 2 OUT
+2026-03-13 16:12:28,250 - INFO - 🔴 RA: ID=5 | Total OUT: 3
+2026-03-13 16:12:36,125 - INFO - 🔴 RA: ID=6 | Total OUT: 4
+2026-03-13 16:12:50,480 - INFO - 🔴 RA: ID=7 | Total OUT: 5
+2026-03-13 16:12:56,975 - INFO - 🔴 RA: ID=8 | Total OUT: 6
+2026-03-13 16:13:17,011 - INFO - 🔴 RA: ID=9 | Total OUT: 7
+2026-03-13 16:13:19,096 - INFO - Received shutdown signal. Stopping...
+2026-03-13 16:13:19,128 - INFO - Saved: +0 IN, +5 OUT | Total session: 1 IN, 7 OUT
+2026-03-13 16:13:19,131 - INFO - Ended session: 20260313_161023 | Total: 1 IN, 7 OUT
+2026-03-13 16:13:19,132 - INFO - Service stopped
+2026-03-13 16:13:30,350 - INFO - ==================================================
+2026-03-13 16:13:30,350 - INFO - Vehicle Counter Service Starting...
+2026-03-13 16:13:30,350 - INFO - ==================================================
+2026-03-13 16:13:30,350 - INFO - Loaded config from config.json
+2026-03-13 16:13:30,416 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 16:13:30,417 - INFO - Service initialized. Device: cuda
+2026-03-13 16:13:30,424 - INFO - Started new session: 20260313_161330
+2026-03-13 16:13:30,425 - INFO - Loading YOLO model...
+2026-03-13 16:13:30,466 - INFO - Model loaded successfully
+2026-03-13 16:13:30,466 - INFO - Connecting to camera...
+2026-03-13 16:13:32,904 - INFO - Camera connected: 704x576
+2026-03-13 16:13:32,905 - INFO - Scaling: 960x720 -> 704x576 (scale: 0.73x, 0.80y)
+2026-03-13 16:13:32,908 - INFO - 📸 Preview saved: preview_20260313_161330.jpg
+2026-03-13 16:13:32,909 - INFO - Starting detection loop...
+2026-03-13 16:13:39,741 - INFO - 🔴 RA: ID=1 | Total OUT: 1
+2026-03-13 16:14:19,538 - INFO - 🔴 RA: ID=3 | Total OUT: 2
+2026-03-13 16:14:22,890 - INFO - 🔴 RA: ID=5 | Total OUT: 3
+2026-03-13 16:14:26,560 - INFO - 🔴 RA: ID=6 | Total OUT: 4
+2026-03-13 16:14:30,893 - INFO - 🔴 RA: ID=7 | Total OUT: 5
+2026-03-13 16:14:32,918 - INFO - Saved: +0 IN, +5 OUT | Total session: 0 IN, 5 OUT
+2026-03-13 16:14:35,793 - INFO - 🔴 RA: ID=8 | Total OUT: 6
+2026-03-13 16:14:42,515 - INFO - 🔴 RA: ID=9 | Total OUT: 7
+2026-03-13 16:14:44,663 - INFO - 🔴 RA: ID=10 | Total OUT: 8
+2026-03-13 16:14:51,412 - INFO - 🔴 RA: ID=11 | Total OUT: 9
+2026-03-13 16:14:54,977 - INFO - 🔴 RA: ID=13 | Total OUT: 10
+2026-03-13 16:14:57,929 - INFO - 🔴 RA: ID=16 | Total OUT: 11
+2026-03-13 16:15:05,985 - INFO - 🔴 RA: ID=17 | Total OUT: 12
+2026-03-13 16:15:07,446 - INFO - 🔴 RA: ID=18 | Total OUT: 13
+2026-03-13 16:15:08,943 - INFO - 🔴 RA: ID=19 | Total OUT: 14
+2026-03-13 16:15:10,028 - INFO - 🔴 RA: ID=20 | Total OUT: 15
+2026-03-13 16:15:11,776 - INFO - 🔴 RA: ID=21 | Total OUT: 16
+2026-03-13 16:15:14,731 - INFO - 🔴 RA: ID=23 | Total OUT: 17
+2026-03-13 16:15:16,502 - INFO - 🔴 RA: ID=24 | Total OUT: 18
+2026-03-13 16:15:32,937 - INFO - Saved: +0 IN, +13 OUT | Total session: 0 IN, 18 OUT
+2026-03-13 16:15:44,044 - INFO - Received shutdown signal. Stopping...
+2026-03-13 16:15:44,073 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 18 OUT
+2026-03-13 16:15:44,075 - INFO - Ended session: 20260313_161330 | Total: 0 IN, 18 OUT
+2026-03-13 16:15:44,076 - INFO - Service stopped
+2026-03-13 16:15:48,493 - INFO - ==================================================
+2026-03-13 16:15:48,494 - INFO - Vehicle Counter Service Starting...
+2026-03-13 16:15:48,494 - INFO - ==================================================
+2026-03-13 16:15:48,494 - INFO - Loaded config from config.json
+2026-03-13 16:15:48,661 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 16:15:48,661 - INFO - Service initialized. Device: cuda
+2026-03-13 16:15:48,665 - INFO - Started new session: 20260313_161548
+2026-03-13 16:15:48,666 - INFO - Loading YOLO model...
+2026-03-13 16:15:48,706 - INFO - Model loaded successfully
+2026-03-13 16:15:48,706 - INFO - Connecting to camera...
+2026-03-13 16:15:50,031 - INFO - Camera connected: 704x576
+2026-03-13 16:15:50,032 - INFO - Scaling: 960x720 -> 704x576 (scale: 0.73x, 0.80y)
+2026-03-13 16:15:50,038 - INFO - 📸 Preview saved: preview_20260313_161548.jpg
+2026-03-13 16:15:50,038 - INFO - Starting detection loop...
+2026-03-13 16:16:11,549 - INFO - 🔴 RA: ID=2 | Total OUT: 1
+2026-03-13 16:16:16,200 - INFO - 🔴 RA: ID=4 | Total OUT: 2
+2026-03-13 16:16:43,351 - INFO - 🔴 RA: ID=5 | Total OUT: 3
+2026-03-13 16:16:45,779 - INFO - 🔴 RA: ID=7 | Total OUT: 4
+2026-03-13 16:16:50,065 - INFO - Saved: +0 IN, +4 OUT | Total session: 0 IN, 4 OUT
+2026-03-13 16:16:54,761 - INFO - 🔴 RA: ID=8 | Total OUT: 5
+2026-03-13 16:16:56,466 - INFO - 🔴 RA: ID=9 | Total OUT: 6
+2026-03-13 16:17:50,083 - INFO - Saved: +0 IN, +2 OUT | Total session: 0 IN, 6 OUT
+2026-03-13 16:18:50,098 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 6 OUT
+2026-03-13 16:19:14,623 - INFO - 🔴 RA: ID=22 | Total OUT: 7
+2026-03-13 16:19:15,068 - INFO - 🔴 RA: ID=13 | Total OUT: 8
+2026-03-13 16:19:42,307 - INFO - 🔴 RA: ID=31 | Total OUT: 9
+2026-03-13 16:19:43,880 - INFO - 🔴 RA: ID=32 | Total OUT: 10
+2026-03-13 16:19:44,452 - INFO - 🔴 RA: ID=33 | Total OUT: 11
+2026-03-13 16:19:50,115 - INFO - Saved: +0 IN, +5 OUT | Total session: 0 IN, 11 OUT
+2026-03-13 16:20:34,066 - INFO - 🟢 VÀO: ID=36 | Total IN: 1
+2026-03-13 16:20:50,135 - INFO - Saved: +1 IN, +0 OUT | Total session: 1 IN, 11 OUT
+2026-03-13 16:21:09,102 - INFO - 🔴 RA: ID=42 | Total OUT: 12
+2026-03-13 16:21:12,630 - INFO - 🔴 RA: ID=44 | Total OUT: 13
+2026-03-13 16:21:33,063 - INFO - 🟢 VÀO: ID=47 | Total IN: 2
+2026-03-13 16:21:50,144 - INFO - Saved: +1 IN, +2 OUT | Total session: 2 IN, 13 OUT
+2026-03-13 16:21:52,983 - INFO - Received shutdown signal. Stopping...
+2026-03-13 16:21:52,999 - INFO - Saved: +0 IN, +0 OUT | Total session: 2 IN, 13 OUT
+2026-03-13 16:21:53,002 - INFO - Ended session: 20260313_161548 | Total: 2 IN, 13 OUT
+2026-03-13 16:21:53,003 - INFO - Service stopped
+2026-03-13 23:24:48,668 - INFO - ==================================================
+2026-03-13 23:24:48,669 - INFO - Vehicle Counter Service Starting...
+2026-03-13 23:24:48,669 - INFO - ==================================================
+2026-03-13 23:24:48,670 - INFO - Loaded config from config.json
+2026-03-13 23:24:48,890 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 23:24:48,890 - INFO - Service initialized. Device: cuda
+2026-03-13 23:24:48,900 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.00/2.00 GB (0.0%) | Free: 2.00 GB
+2026-03-13 23:24:48,920 - INFO - Started new session: 20260313_232448
+2026-03-13 23:24:48,920 - INFO - Loading YOLO model...
+2026-03-13 23:24:49,054 - INFO - Model loaded successfully
+2026-03-13 23:24:49,055 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.00/2.00 GB (0.0%) | Free: 2.00 GB
+2026-03-13 23:24:49,055 - INFO - Connecting to camera...
+2026-03-13 23:24:51,791 - INFO - Camera connected: 704x576
+2026-03-13 23:24:51,792 - INFO - Scaling: 960x720 -> 704x576 (scale: 0.73x, 0.80y)
+2026-03-13 23:24:51,830 - INFO - 📸 Preview saved: preview_20260313_232448.jpg
+2026-03-13 23:24:51,830 - INFO - Starting detection loop...
+2026-03-13 23:25:03,050 - ERROR - Error: Too many read errors
+2026-03-13 23:25:03,050 - INFO - Reconnecting in 5s... (1/10)
+2026-03-13 23:25:08,050 - INFO - Connecting to camera...
+2026-03-13 23:25:11,823 - INFO - Camera connected: 704x576
+2026-03-13 23:25:11,823 - INFO - Scaling: 960x720 -> 704x576 (scale: 0.73x, 0.80y)
+2026-03-13 23:25:11,826 - INFO - 📸 Preview saved: preview_20260313_232448.jpg
+2026-03-13 23:25:11,826 - INFO - Starting detection loop...
+2026-03-13 23:25:49,878 - INFO - 🟢 VÀO: ID=2 | Total IN: 1
+2026-03-13 23:26:11,887 - INFO - Saved: +1 IN, +0 OUT | Total session: 1 IN, 0 OUT
+2026-03-13 23:26:11,888 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:27:11,891 - INFO - Saved: +0 IN, +0 OUT | Total session: 1 IN, 0 OUT
+2026-03-13 23:27:11,892 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:27:53,198 - INFO - Received shutdown signal. Stopping...
+2026-03-13 23:27:53,229 - INFO - Saved: +0 IN, +0 OUT | Total session: 1 IN, 0 OUT
+2026-03-13 23:27:53,229 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:27:53,250 - INFO - Ended session: 20260313_232448 | Total: 1 IN, 0 OUT
+2026-03-13 23:27:53,250 - INFO - Service stopped
+2026-03-13 23:36:25,938 - INFO - ==================================================
+2026-03-13 23:36:25,939 - INFO - Vehicle Counter Service Starting...
+2026-03-13 23:36:25,939 - INFO - ==================================================
+2026-03-13 23:36:25,940 - INFO - Loaded config from config.json
+2026-03-13 23:36:26,299 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 23:36:26,299 - INFO - Service initialized. Device: cuda
+2026-03-13 23:36:26,310 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.00/2.00 GB (0.0%) | Free: 2.00 GB
+2026-03-13 23:36:26,331 - INFO - Started new session: 20260313_233626
+2026-03-13 23:36:26,332 - INFO - Loading YOLO model...
+2026-03-13 23:36:26,499 - INFO - Model loaded successfully
+2026-03-13 23:36:26,501 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.00/2.00 GB (0.0%) | Free: 2.00 GB
+2026-03-13 23:36:26,502 - INFO - Connecting to camera...
+2026-03-13 23:36:29,223 - INFO - Camera connected: 704x576
+2026-03-13 23:36:29,223 - INFO - Scaling: 960x720 -> 704x576 (scale: 0.73x, 0.80y)
+2026-03-13 23:36:29,262 - INFO - 📸 Preview saved: preview_20260313_233626.jpg
+2026-03-13 23:36:29,262 - INFO - Starting detection loop...
+2026-03-13 23:37:29,311 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:37:29,312 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:38:29,325 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:38:29,326 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:39:29,407 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:39:29,408 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:40:29,419 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:40:29,419 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:41:29,540 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:41:29,541 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:42:29,612 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:42:29,613 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:43:29,703 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:43:29,704 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:44:06,789 - INFO - 🔴 RA: ID=47 | Total OUT: 1
+2026-03-13 23:44:29,824 - INFO - Saved: +0 IN, +1 OUT | Total session: 0 IN, 1 OUT
+2026-03-13 23:44:29,825 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:44:31,051 - INFO - 🟢 VÀO: ID=48 | Total IN: 1
+2026-03-13 23:45:30,031 - INFO - Saved: +1 IN, +0 OUT | Total session: 1 IN, 1 OUT
+2026-03-13 23:45:30,032 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:46:30,123 - INFO - Saved: +0 IN, +0 OUT | Total session: 1 IN, 1 OUT
+2026-03-13 23:46:30,124 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:46:50,508 - INFO - 🟢 VÀO: ID=50 | Total IN: 2
+2026-03-13 23:47:30,149 - INFO - Saved: +1 IN, +0 OUT | Total session: 2 IN, 1 OUT
+2026-03-13 23:47:30,150 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:48:30,174 - INFO - Saved: +0 IN, +0 OUT | Total session: 2 IN, 1 OUT
+2026-03-13 23:48:30,174 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:49:30,444 - INFO - Saved: +0 IN, +0 OUT | Total session: 2 IN, 1 OUT
+2026-03-13 23:49:30,444 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:50:30,497 - INFO - Saved: +0 IN, +0 OUT | Total session: 2 IN, 1 OUT
+2026-03-13 23:50:30,498 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:50:31,611 - INFO - Received shutdown signal. Stopping...
+2026-03-13 23:50:31,628 - INFO - Saved: +0 IN, +0 OUT | Total session: 2 IN, 1 OUT
+2026-03-13 23:50:31,629 - INFO - 🎮 GPU: NVIDIA GeForce MX350 | VRAM: 0.09/2.00 GB (4.3%) | Free: 1.91 GB
+2026-03-13 23:50:31,636 - INFO - Ended session: 20260313_233626 | Total: 2 IN, 1 OUT
+2026-03-13 23:50:31,636 - INFO - Service stopped
+2026-03-13 23:55:07,238 - INFO - ==================================================
+2026-03-13 23:55:07,238 - INFO - Vehicle Counter Service Starting...
+2026-03-13 23:55:07,238 - INFO - ==================================================
+2026-03-13 23:55:07,239 - INFO - Loaded config from config.json
+2026-03-13 23:55:07,323 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-13 23:55:07,323 - INFO - Service initialized. Device: cuda
+2026-03-13 23:55:07,326 - INFO - Started new session: 20260313_235507
+2026-03-13 23:55:07,327 - INFO - Loading YOLO model...
+2026-03-13 23:55:07,378 - INFO - Model loaded successfully
+2026-03-13 23:55:07,379 - INFO - Connecting to camera...
+2026-03-13 23:55:09,970 - INFO - Camera connected: 704x576
+2026-03-13 23:55:09,970 - INFO - Scaling: 960x720 -> 704x576 (scale: 0.73x, 0.80y)
+2026-03-13 23:55:09,977 - INFO - 📸 Preview saved: preview_20260313_235507.jpg
+2026-03-13 23:55:09,978 - INFO - Starting detection loop...
+2026-03-13 23:56:09,985 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:57:10,000 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:58:10,161 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-13 23:59:10,195 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-14 00:00:10,215 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-14 00:01:10,442 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-14 00:02:02,634 - INFO - 📸 Vehicle image saved: vehicle_images/20260314_000202_ID1_OUT.jpg
+2026-03-14 00:02:02,635 - INFO - 🔴 RA: ID=1 | Total OUT: 1
+2026-03-14 00:02:10,463 - INFO - Saved: +0 IN, +1 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:02:47,113 - INFO - Received shutdown signal. Stopping...
+2026-03-14 00:02:47,161 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:02:47,164 - INFO - Ended session: 20260313_235507 | Total: 0 IN, 1 OUT
+2026-03-14 00:02:47,165 - INFO - Service stopped
+2026-03-14 00:05:18,154 - INFO - ==================================================
+2026-03-14 00:05:18,154 - INFO - Vehicle Counter Service Starting...
+2026-03-14 00:05:18,154 - INFO - ==================================================
+2026-03-14 00:05:18,155 - INFO - Loaded config from config.json
+2026-03-14 00:05:18,260 - INFO - PostgreSQL Database initialized: localhost:5432/vehicle_counter
+2026-03-14 00:05:18,260 - INFO - Service initialized. Device: cuda
+2026-03-14 00:05:18,263 - INFO - Started new session: 20260314_000518
+2026-03-14 00:05:18,263 - INFO - Loading YOLO model...
+2026-03-14 00:05:18,350 - INFO - Model loaded successfully
+2026-03-14 00:05:18,350 - INFO - Connecting to camera...
+2026-03-14 00:05:21,049 - INFO - Camera connected: 704x576
+2026-03-14 00:05:21,050 - INFO - Scaling: 960x720 -> 704x576 (scale: 0.73x, 0.80y)
+2026-03-14 00:05:21,056 - INFO - 📸 Preview saved: preview_20260314_000518.jpg
+2026-03-14 00:05:21,057 - INFO - Starting detection loop...
+2026-03-14 00:06:21,081 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-14 00:07:21,101 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-14 00:08:21,197 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 0 OUT
+2026-03-14 00:08:37,359 - INFO - 📸 Vehicle image saved: vehicle_images/20260314_000518/OUT_1_000837_357.jpg
+2026-03-14 00:08:37,359 - INFO - 🔴 RA: ID=1 | Total OUT: 1
+2026-03-14 00:09:21,203 - INFO - Saved: +0 IN, +1 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:10:21,226 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:11:21,239 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:12:21,417 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:13:21,481 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:14:21,502 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:15:21,571 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:16:21,594 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:17:21,615 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:18:21,691 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:19:15,760 - INFO - Received shutdown signal. Stopping...
+2026-03-14 00:19:15,794 - INFO - Saved: +0 IN, +0 OUT | Total session: 0 IN, 1 OUT
+2026-03-14 00:19:15,797 - INFO - Ended session: 20260314_000518 | Total: 0 IN, 1 OUT
+2026-03-14 00:19:15,798 - INFO - Service stopped

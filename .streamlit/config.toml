@@ -1,0 +1,10 @@
+[server]
+# Tăng giới hạn upload lên 1GB (1024 MB)
+maxUploadSize = 1024
+
+# Tăng giới hạn message size
+maxMessageSize = 1024
+
+[browser]
+# Tự động mở browser khi chạy
+gatherUsageStats = false

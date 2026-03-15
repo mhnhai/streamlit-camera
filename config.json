@@ -1,0 +1,25 @@
+{
+    "rtsp_url": "rtsp://admin:02926556833@113.164.79.131:554/cam/realmonitor?channel=1&subtype=0",
+    
+    "model_path": "yolo11n_finetune_v1/weights/best.pt",
+    "conf_threshold": 0.5,
+    "target_classes": [0, 1, 2, 3],
+    "min_frames": 3,
+    
+    "original_width": 960,
+    "original_height": 720,
+    "roi_points": [[87, 194], [900, 159], [1100, 700], [110, 700]],
+    "line_pt1": [407, 719],
+    "line_pt2": [767, 323],
+    
+    "db_host": "localhost",
+    "db_port": 5432,
+    "db_name": "vehicle_counter",
+    "db_user": "postgres",
+    "db_password": "Sinhnam2004",
+    
+    "save_interval": 60,
+    
+    "max_reconnect": 10,
+    "reconnect_delay": 5
+}
